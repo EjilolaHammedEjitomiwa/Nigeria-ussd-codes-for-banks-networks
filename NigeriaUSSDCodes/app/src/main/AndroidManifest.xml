@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geodeveloper.nigeriaussdcodes">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/BaseTheme">
+        <activity android:name=".KeyStoneBank"></activity>
+        <activity android:name=".test" />
+        <activity android:name=".HeritageBank" />
+        <activity android:name=".Fcmb" />
+        <activity android:name=".FidelityBank" />
+        <activity android:name=".EcoBank" />
+        <activity android:name=".DiamondBank" />
+        <activity android:name=".allBankActivity" />
+        <activity android:name=".UnionBankActivity" />
+        <activity android:name=".FirstBankActivity" />
+        <activity android:name=".GtbBank" />
+        <activity android:name=".AccessBank" />
+        <activity android:name=".MtnActivity" />
+        <activity android:name=".AirtelActivity" />
+        <activity android:name=".NineMobileActivity" />
+        <activity android:name=".GloActivity" />
+        <activity android:name=".UbaBankActivity" />
+        <activity android:name=".GeneralCodesActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

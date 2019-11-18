@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Banks"
+        android:icon="@mipmap/bank_icon">
+        <menu>
+
+            <item
+                android:id="@+id/menu_uba"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="UBA Bank Plc" />
+
+            <item
+                android:id="@+id/menu_access"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="Access Bank" />
+            <item
+                android:id="@+id/menu_gtb"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="Guarantee Trust Bank" />
+            <item
+                android:id="@+id/menu_first"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="First Bank" />
+            <item
+                android:id="@+id/menu_union"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="Union Bank" />
+            <item
+                android:id="@+id/menu_diamond"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="Diamond Bank" />
+            <item
+                android:id="@+id/menu_eco"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="Ecobank" />
+            <item
+                android:id="@+id/menu_fidelity"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="Fidelty Bank" />
+            <item
+                android:id="@+id/menu_fcmb"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="FCMB" />
+            <item
+                android:id="@+id/menu_heritage"
+                android:checkable="true"
+                android:icon="@mipmap/bank_icon_item"
+                android:title="UBA Bank Plc" />
+        </menu>
+
+
+    </item>
+
+
+
+
+    <item android:title="Networks"
+        android:icon="@mipmap/bank_icon">
+        <menu>
+
+            <item
+                android:id="@+id/menu_glo"
+                android:checkable="true"
+                android:title="GLO"
+                android:icon="@mipmap/bank_icon_item" />
+            <item
+                android:id="@+id/menu_9mobile"
+                android:checkable="true"
+                android:title="9Mobile"
+                android:icon="@mipmap/bank_icon_item" />
+            <item
+                android:id="@+id/menu_airtel"
+                android:checkable="true"
+                android:title="Airtel"
+                android:icon="@mipmap/bank_icon_item" />
+            <item
+                android:id="@+id/menu_mtn"
+                android:checkable="true"
+                android:title="MTN"
+                android:icon="@mipmap/bank_icon_item" />
+
+        </menu>
+
+
+    </item>
+
+
+
+
+</menu>
